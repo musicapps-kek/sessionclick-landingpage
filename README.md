@@ -40,3 +40,5 @@ Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds with Hug
 - Fill in `content/datenschutz.md` (name, address — same as Impressum)
 - Set `playStoreUrl` in `hugo.toml` once the Play Store listing is live
 - Add the official Google Play badge PNG to `static/images/google-play-badge.png`
+
+--
