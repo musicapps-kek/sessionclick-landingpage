@@ -9,9 +9,12 @@ Diese Website (sessionclick.com) ist eine rein statische Informationsseite für 
 
 ## 2. Verantwortlicher
 
-<!-- TODO: Vollständigen Namen und Adresse einsetzen — identisch mit Impressum -->
-[Vollständiger Name]
-[Anschrift]
+Karl-Ernst Kiel
+
+Holser Str. 17,
+32257 Bünde,
+Deutschland
+
 E-Mail: karl@musicapps.eu
 
 ## 3. Serverlogfiles (GitHub Pages)
@@ -32,4 +35,4 @@ Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Lösch
 
 ## 7. Die App SessionClick
 
-Die App **SessionClick** speichert alle Daten (Setlists, Songs, Einstellungen) **ausschließlich lokal auf Ihrem Gerät**. Es findet keine Übertragung an einen Server statt, es gibt keine Konten und keine Cloud-Synchronisation.
+Die App **SessionClick** speichert alle Daten (Setlists, Songs, Einstellungen) **ausschließlich lokal auf Ihrem Gerät**. Es findet keine Übertragung an einen Server statt, es gibt keine Konten und keine Cloud-Synchronisation. Die Datenschutzerklärung für die App finden Sie in der App selbst (Einstellungen > Datenschutz) und auf der Website unter <https://sessionclick.com/privacy>.
