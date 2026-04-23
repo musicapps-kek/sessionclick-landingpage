@@ -1,0 +1,100 @@
+{{ define "main" }}
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <h1>SessionClick</h1>
+      <p class="tagline">The stage metronome for live musicians.</p>
+      <p class="lede">Keeping you in time on stage — without the fuss. No fancy settings. No ads. No subscription. No cloud. Just the click and the setlist.</p>
+      <div class="cta">
+        {{ if site.Params.playStoreUrl }}
+          <a class="badge" href="{{ site.Params.playStoreUrl }}" aria-label="Get it on Google Play">
+            <img src="{{ "images/google-play-badge.png" | relURL }}" alt="Get it on Google Play" />
+          </a>
+        {{ else }}
+          <span class="badge badge-disabled" aria-disabled="true" title="Coming soon on Google Play">
+            <span class="badge-label">Coming soon on Google Play</span>
+          </span>
+        {{ end }}
+        <span class="badge-secondary">iOS coming soon</span>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="{{ "images/banner.png" | relURL }}" alt="SessionClick — The stage metronome for live musicians" />
+    </div>
+  </div>
+</header>
+
+<section class="section features">
+  <div class="container">
+    <h2>Built for the stage</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <h3>Setlist management</h3>
+        <p>Build playlists of songs with individual BPM settings. Reorder by holding and dragging. Add notes per song.</p>
+      </div>
+      <div class="feature">
+        <h3>Three feedback modes</h3>
+        <p>Audio click, flashing visual pulse, tactile vibration. Pick what works for your stage and your ears.</p>
+      </div>
+      <div class="feature">
+        <h3>Tap tempo</h3>
+        <p>Tap the BPM. Works in the song editor and on the main screen — set a tempo as fast as you can feel it.</p>
+      </div>
+      <div class="feature">
+        <h3>Stage-optimized UI</h3>
+        <p>Large BPM circle, high-contrast colors, one-handed operation. Designed to be read and tapped in low light.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section showcase">
+  <div class="container">
+    <h2>The player</h2>
+    <p class="section-lede">Big tempo readout, flashing beat indicator, volume, and a tactile mode toggle. The start/stop button is where your thumb expects it.</p>
+    <img src="{{ "images/player-section.png" | relURL }}" alt="SessionClick player with labeled controls: tempo, flashing beat indicator, volume, feel the beat, start/stop" />
+  </div>
+</section>
+
+<section class="section showcase alt">
+  <div class="container">
+    <h2>The setlist</h2>
+    <p class="section-lede">Tap to select a song. Hold and drag to reorder. Swipe to edit or delete. Breaks and specials sit inline with the songs.</p>
+    <img src="{{ "images/playlist-section.png" | relURL }}" alt="SessionClick setlist view showing songs with per-song BPM, reorder handles, edit and delete gestures" />
+  </div>
+</section>
+
+<section class="section showcase">
+  <div class="container">
+    <h2>Manage setlists and add songs</h2>
+    <p class="section-lede">Create as many setlists as you need. Add songs, set per-song BPM, add a short note — it only takes a few seconds.</p>
+    <img src="{{ "images/add-song.png" | relURL }}" alt="SessionClick add song screen" />
+  </div>
+</section>
+
+<section class="section showcase alt">
+  <div class="container">
+    <h2>Light and dark. Portrait and landscape.</h2>
+    <p class="section-lede">Works the way your stage works.</p>
+    <img src="{{ "images/portrait-landscape.png" | relURL }}" alt="SessionClick in portrait dark mode and landscape light mode" />
+  </div>
+</section>
+
+<section class="section pricing">
+  <div class="container">
+    <h2>Free to try. One-time unlock.</h2>
+    <div class="tiers">
+      <div class="tier">
+        <h3>Free</h3>
+        <p class="price">€0</p>
+        <p>Up to 30 songs and 3 playlists. Two demo playlists included — replace them with your own. No ads, no subscription.</p>
+      </div>
+      <div class="tier highlight">
+        <h3>Unlock</h3>
+        <p class="price">€2 <span class="price-note">one-time</span></p>
+        <p>Unlimited songs and playlists. No subscription, ever.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

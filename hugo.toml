@@ -1,0 +1,15 @@
+baseURL = "https://sessionclick.com/"
+languageCode = "en-us"
+title = "SessionClick — The Stage Metronome"
+enableRobotsTXT = true
+
+[params]
+  description = "SessionClick is a stage metronome for live musicians. Setlists, visual pulse, tactile beat. No ads, no subscription, no cloud."
+  email = "karl@musicapps.eu"
+  playStoreUrl = ""
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML"]
