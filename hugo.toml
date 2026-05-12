@@ -2,6 +2,7 @@ baseURL = "https://sessionclick.com/"
 languageCode = "en-us"
 title = "SessionClick — The Stage Metronome"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "SessionClick is a stage metronome for live musicians. Setlists, visual pulse, tactile beat. No ads, no subscription, no cloud."
