@@ -70,6 +70,8 @@ a:hover { text-decoration: underline; }
   border-radius: 8px;
   font-weight: 600;
 }
+.badge img { display: block; height: 76px; width: auto; }
+a.badge:has(img) { background: transparent; padding: 0; border-radius: 0; }
 .badge-disabled {
   background: var(--surface);
   color: var(--muted);
