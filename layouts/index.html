@@ -15,7 +15,13 @@
             <span class="badge-label">Coming soon on Google Play</span>
           </span>
         {{ end }}
-        <span class="badge-secondary">iOS coming soon</span>
+        {{ if site.Params.appStoreUrl }}
+          <a class="badge badge-apple" href="{{ site.Params.appStoreUrl }}" aria-label="Download on the App Store">
+            <img src="{{ "images/app-store-badge.svg" | relURL }}" alt="Download on the App Store" />
+          </a>
+        {{ else }}
+          <span class="badge-secondary">iOS coming soon</span>
+        {{ end }}
       </div>
     </div>
     <div class="hero-image">

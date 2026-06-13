@@ -8,6 +8,7 @@ disableKinds = ["taxonomy", "term"]
   description = "SessionClick is a stage metronome for live musicians. Setlists, visual pulse, tactile beat. No ads, no subscription, no cloud."
   email = "karl@musicapps.eu"
   playStoreUrl = "https://play.google.com/store/apps/details?id=eu.musicapps.sessionclick"
+  appStoreUrl = "https://apps.apple.com/app/id6777070514"
 
 [markup.goldmark.renderer]
   unsafe = true

@@ -23,7 +23,7 @@ Diese Website wird über **GitHub Pages** (GitHub, Inc., 88 Colin P Kelly Jr St,
 
 ## 4. Externe Links
 
-Unsere Seite verlinkt auf externe Dienste (z. B. Google Play, Blog, MusicApps.eu). Beim Anklicken dieser Links verlassen Sie diese Website — es gelten die Datenschutzbestimmungen der jeweiligen Anbieter.
+Unsere Seite verlinkt auf externe Dienste (z. B. Google Play, Apple App Store, Blog, MusicApps.eu). Beim Anklicken dieser Links verlassen Sie diese Website — es gelten die Datenschutzbestimmungen der jeweiligen Anbieter.
 
 ## 5. Kontakt per E-Mail
 

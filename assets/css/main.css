@@ -71,6 +71,9 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
 }
 .badge img { display: block; height: 76px; width: auto; }
+/* Apple's SVG has no built-in clearspace (the Google Play PNG does), so render it
+   smaller to match the visible button height of the Google Play badge. */
+.badge-apple img { height: 52px; }
 a.badge:has(img) { background: transparent; padding: 0; border-radius: 0; }
 .badge-disabled {
   background: var(--surface);
