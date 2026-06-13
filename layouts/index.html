@@ -101,6 +101,16 @@
   </div>
 </section>
 
+{{ if os.FileExists "static/images/iphone-section.png" }}
+<section class="section showcase iphone-showcase">
+  <div class="container">
+    <h2>Also on iPhone</h2>
+    <p class="section-lede">Same setlists, same stage-ready controls — native on iOS. Download it from the App Store.</p>
+    <img src="{{ "images/iphone-section.png" | relURL }}" alt="SessionClick running on iPhone" />
+  </div>
+</section>
+{{ end }}
+
 <section class="section pricing">
   <div class="container">
     <h2>Free to try. One-time unlock.</h2>
@@ -115,6 +125,25 @@
         <p class="price">€2 <span class="price-note">one-time</span></p>
         <p>Unlimited songs and playlists. No subscription, ever.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section final-cta alt">
+  <div class="container">
+    <h2>Get SessionClick</h2>
+    <p class="section-lede">Free to download on Android and iOS.</p>
+    <div class="cta">
+      {{ if site.Params.playStoreUrl }}
+        <a class="badge" href="{{ site.Params.playStoreUrl }}" aria-label="Get it on Google Play">
+          <img src="{{ "images/google-play-badge.png" | relURL }}" alt="Get it on Google Play" />
+        </a>
+      {{ end }}
+      {{ if site.Params.appStoreUrl }}
+        <a class="badge badge-apple" href="{{ site.Params.appStoreUrl }}" aria-label="Download on the App Store">
+          <img src="{{ "images/app-store-badge.svg" | relURL }}" alt="Download on the App Store" />
+        </a>
+      {{ end }}
     </div>
   </div>
 </section>
